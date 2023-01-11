@@ -6,7 +6,7 @@ int main()
     int students[] = { 73, 85, 84, 44, 78 };
     const int numStudents = sizeof(students) / sizeof(students[0]);
 
-    int maxScore = 0; // отслеживаем самую высокую оценку
+    int maxScore = 0; 
     for (int person = 0; person < numStudents; ++person)
         if (students[person] > maxScore)
             maxScore = students[person];
